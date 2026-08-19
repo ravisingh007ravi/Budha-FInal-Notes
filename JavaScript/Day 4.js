@@ -10,7 +10,7 @@
 // console.log(str)
 
 
-let n = 3 // n row and n col
+// let n = 3 
 // first way
 // let str = ''
 // for (let i = 1; i <= n; i++) {
@@ -33,11 +33,56 @@ let n = 3 // n row and n col
 
 //third way 
 
-let str = ''
+// let str = ''
+// for (let i = 1; i <= n; i++) {
+//     for(let j=i;j<=n;j++){
+//         str+=j +' '
+//     }
+//     str+='\n'
+// }
+// console.log(str)
+
+let n = 3
+let result = '' 
+// i = 1 
+// space  = --
+// star = * 
+// --*
+// i = 2 
+// space = - 
+// star = ***
+
+// --*
+// -***
+
+// i = 3 
+// space false
+// start *****
+
+// --*
+// -***
+// ***** 
 for (let i = 1; i <= n; i++) {
-    for(let j=i;j<=n;j++){
-        str+='* '
+    for (let j = i; j < n; j++) {
+        result += '  '
     }
-    str+='\n'
+
+    for (let j = 1; j <= 2 * i - 1; j++) {
+        result += '* '
+    }
+
+    result += '\n'
 }
-console.log(str)
+
+console.log(result)
+
+
+// let result = ''
+// for(let i =1 ;i<=n;i++){
+//     for(let j = 1;j<=2*i-1;j++){
+//         result+='*'
+//     }
+//     result+='\n'
+// }
+
+// console.log(result)
