@@ -43,11 +43,12 @@
 // console.log(str)
 
 let n = 3
-let result = '' 
+let result = ''
 // i = 1 
 // space  = --
 // star = * 
-// --*
+// --*   
+
 // i = 2 
 // space = - 
 // star = ***
