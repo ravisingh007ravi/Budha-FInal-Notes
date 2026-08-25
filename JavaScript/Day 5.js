@@ -209,17 +209,18 @@ let clothData = [
 ];
 
 
-let arr =[1,11,22,3,2,5]
+let arr = [1, 11, 22, 3, 2, 5]
 
 let max = clothData[0].price
 let result = clothData[0]
 
-for(let i=1;i<clothData.length;i++){
-    if(max>clothData[i].price){
-        max=clothData[i].price
-        result=clothData[i]
-    }
+for (let i = 1; i < clothData.length; i++) {
+  if (max > clothData[i].price) {
+    a
+    max = clothData[i].price
+    result = clothData[i]
+  }
 }
 
-console.log(max)
+console.log(max) 
 console.log(result)
