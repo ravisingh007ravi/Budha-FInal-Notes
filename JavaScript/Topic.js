@@ -11,7 +11,7 @@
 // type of loop
 // function
 // type of function
-// Hiogher order function
+// Higher order function
 // callback function
 // closure
 // call back hell

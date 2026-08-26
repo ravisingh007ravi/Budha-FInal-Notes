@@ -5,7 +5,7 @@
 // Normal is global function never console.log inside function if we use clg only find error
 // user defined function
 
-function evenOrOdd(n) {
+function evenOrOdd(n) { 
     return n % 2 == 0 ? "Even" : "Odd"
 }
 
