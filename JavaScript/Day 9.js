@@ -35,20 +35,20 @@ let arr = [1, 2, 3, 2, 1]
 // console.log(findEven)
 // console.log(addvalue)
 
-// let sumallValur = arr.reduce((sum,v)=>{
-//     console.log(sum,v)
-//     return sum+v
-// },0)
+let sumallValur = arr.reduce((sum,v)=>{
+    console.log(sum,v)
+    return sum+v
+},0)
 
-// console.log(sumallValur)
+console.log(sumallValur)
 
-let data = [
-    {name:'a',salary:1},
-    {name:'a',salary:2},
-    {name:'a',salary:3},
-]
-let result = data.reduce((s,a)=>{return s+a.salary},0)
-console.log(result)
+// let data = [
+//     {name:'a',salary:1},
+//     {name:'a',salary:2},
+//     {name:'a',salary:3},
+// ]
+// let result = data.reduce((s,a)=>{return s+a.salary},0)
+// console.log(result)
 // let result = arr.filter((v)=>v%2==0).map((v)=>v+20)
 
 // console.log(result)
