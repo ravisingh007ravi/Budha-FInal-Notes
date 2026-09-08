@@ -391,7 +391,6 @@ export default function InbuildAPI() {
     return (
 
         <div>
-
             <div className='flex py-10 justify-between px-20'>
                 <h1>ALl Product</h1>
 
@@ -403,7 +402,6 @@ export default function InbuildAPI() {
             </div>
 
             <div className='flex flex-wrap'>
-
                 {
                     data.map((v, i) => (
                         <div >
@@ -415,8 +413,6 @@ export default function InbuildAPI() {
                         </div>
                     ))
                 }
-
-
             </div>
         </div>
     )
