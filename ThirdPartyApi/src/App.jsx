@@ -7,10 +7,11 @@ import AllStock from './components/pages/AllStock.jsx'
 import AllUser from './components/pages/AllUser.jsx'
 
 export default function App() {
-  return (
+  return ( 
     <BrowserRouter >
       <Navbar />
       <Routes>
+        <Route path='/' element={<Home/>}/>
         <Route path='/all_users' element={<AllUser/>}/>
         <Route path='/all_products' element={<AllProduct/>}/>
         <Route path='/all_stock' element={<AllStock/>}/>
