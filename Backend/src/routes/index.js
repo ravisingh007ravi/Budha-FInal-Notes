@@ -6,7 +6,6 @@ export const routes = express.Router()
 
 // global API 
 
-
 routes.get('/test', (req, res) => { res.send("ok") })
 
 // User Api
